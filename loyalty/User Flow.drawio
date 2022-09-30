@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T16:19:06.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="5bkizefeyJ_UY3B5EGey" version="20.3.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-30T16:34:36.950Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.53" etag="GmRjhRF6rxDEMvM37IDo" version="20.3.7" type="github" pages="6">
   <diagram id="WDtbSaIOtYO46Cujb4ph" name="User flow">
     <mxGraphModel dx="1695" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
@@ -56,6 +56,9 @@
         </mxCell>
         <mxCell id="3v_4tUWmUqK_jjppRktE-9" value="Option 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;fillColor=#eeeeee;strokeColor=#999999;gradientColor=#cccccc;align=left;spacingLeft=4;fontSize=17;fontColor=#666666;labelPosition=right;sketch=1;rounded=0;" vertex="1" parent="3v_4tUWmUqK_jjppRktE-1">
           <mxGeometry x="10" y="220" width="15" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="1uWXZRWAopc-pWMOSLoT-110" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;hachureGap=4;jiggle=2;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#030303;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3v_4tUWmUqK_jjppRktE-17" target="1uWXZRWAopc-pWMOSLoT-108">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3v_4tUWmUqK_jjppRktE-17" value="prints&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;gradientColor=none;sketch=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1294" y="116" width="60" height="60" as="geometry" />
@@ -283,12 +286,14 @@
         <mxCell id="1uWXZRWAopc-pWMOSLoT-105" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;fontSize=10;fillColor=none;gradientColor=none;sketch=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="220" width="30" height="16.5" as="geometry" />
         </mxCell>
-        <mxCell id="1uWXZRWAopc-pWMOSLoT-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=0;fontSize=10;curved=1;" edge="1" parent="1" source="3v_4tUWmUqK_jjppRktE-17" target="1uWXZRWAopc-pWMOSLoT-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1324" y="450" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="1uWXZRWAopc-pWMOSLoT-107" value="state = pending&lt;br&gt;actor = null" style="text;html=1;strokeColor=default;fillColor=#FFFFCC;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;gradientColor=none;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="305" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1uWXZRWAopc-pWMOSLoT-111" style="edgeStyle=orthogonalEdgeStyle;curved=1;sketch=1;hachureGap=4;jiggle=2;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=#030303;" edge="1" parent="1" source="1uWXZRWAopc-pWMOSLoT-108" target="1uWXZRWAopc-pWMOSLoT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1uWXZRWAopc-pWMOSLoT-108" value="Read coupons" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;gradientColor=none;sketch=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
